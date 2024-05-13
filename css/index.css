@@ -1,0 +1,226 @@
+/* @font-face {
+    font-family: 'jakarta';
+    src: url('../assets/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf');
+} */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    /* font-family: 'jakarta'; */
+    /* font-family: "Plus Jakarta Sans", sans-serif; */
+}
+.dprimary {
+    color: blue !important;
+
+    font-weight: 600;
+}
+
+.nav-link {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: block;
+    padding: .5rem 1rem;
+    color: #7c7c7c;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-weight: 500;
+}
+
+.designn {
+    width: fit-content;
+    font-size: small;
+    background: linear-gradient(100deg, #0000ffb3, #f45353);
+    font-weight: 500;
+    color: white;
+}
+
+.projectss {
+    border: 1px solid black;
+    background-color: white;
+    padding: 11px;
+    font-weight: 600;
+    font-size: 16px;
+    /* height: fit-content; */
+}
+
+.resumee {
+    padding: 13px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.cann {
+    font-weight: 100;
+}
+
+.imagesec {
+    margin-top: 40px;
+}
+
+.gett {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #f1067b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* .man{
+    margin-bottom: 300px!important;
+    object-fit: cover;
+} */
+.devel{
+    margin-top: 140px;
+}
+.aboutme{
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #f1067b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nameis{
+    /* padding-left: 500px;
+    padding-right: 300px; */
+    font-size: 22px;
+    font-weight: 100;
+}
+.lorem{
+    font-size: 17px;
+}
+.iconsec{
+    background: -webkit-linear-gradient(150deg, #1e30f3 0%, #f1067b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Downloadd{
+    font-size: 18px;
+}
+.resum{
+    background: -webkit-linear-gradient(100deg, #1e30f3 0%, #f1067b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+.Presentt{
+    margin-left:18%;
+    margin-right:18%;
+    border-radius: 15px;
+}
+.bg-lightt{
+    background-color: rgb(246, 243, 243);
+}
+.text-maroon{
+    color: #cf076bf9;
+}
+.stark{
+font-size: 16px;
+}
+.facogs{
+    font-size: 35px;
+    background: linear-gradient(100deg, #0000ffb3, #f45353);
+
+}
+.skill{
+    font-size:30px;
+    background: -webkit-linear-gradient(100deg, #1e30f3 0%, #f1067b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.professionall{
+    margin-top: 100px;
+}
+.markk{
+    font-size: 18px;
+}
+.langue{
+    margin-top: 60px;
+}
+.bg-darkgray{
+    background-color: rgba(20, 28, 28, 0.755);
+}
+.ipsum{
+    /* padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-right: 50; */
+    padding: 100px 50px;
+}
+.dolorr{
+    margin-left:18%;
+    margin-right:18%;
+    border-radius: 20px;
+}
+.sitt{
+    font-size: 16px;
+}
+.dolo{
+    margin-top: 50px;
+}
+.build{
+    background: linear-gradient(100deg, #0000ffb3, #f45353);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 80px;
+}
+.darkme{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.projectss:hover{
+    background-color: rgba(14, 14, 14, 0.758);
+    color: white;
+}
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .man{
+        margin-top: 80px!important;
+        /* width: 50%; */
+        width: 90%!important;
+    }
+    
+   
+}
+
+
+@media (max-width:992px) {
+    .man{
+        margin-top: 50px!important;
+    }
+    .imagesec {
+        margin-top: -70px;
+    }
+   
+}
+
+
+@media (max-width:768px) {
+    .man{
+        margin-top: 50px!important;
+    }
+    .facogs{
+        font-size: 15px;
+    }
+    .skill{
+        font-size: 20px;
+    }
+    /* .Experiens{
+        margin-left: 100px!important;
+    } */
+}
+
+@media (max-width:768px) {
+    .man{
+        margin-top: 50px!important;
+    }
+    .resumee{
+        width: 100%!important;
+
+    }
+    .projectss{
+        width: 100%!important;
+    }
+    /* .Experiens{
+        display: flex;
+        align-items: center;
+    } */
+   
+}
